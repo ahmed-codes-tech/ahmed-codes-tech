@@ -1,115 +1,112 @@
-<svg width="960" height="480" viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1180" height="480" viewBox="0 0 1180 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Muhammad Ahmed — developer terminal profile</title>
-  <desc id="desc">Terminal-style panel: portrait placeholder on the left, developer identity printed as shell output on the right.</desc>
+  <desc id="desc">Terminal-style panel: an ASCII-rendered portrait on the left, developer identity printed as shell output on the right.</desc>
 
   <defs>
     <clipPath id="frameClip">
-      <rect x="1" y="1" width="958" height="478" rx="10" ry="10"/>
+      <rect x="1" y="1" width="1178" height="478" rx="10" ry="10"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frameClip)">
-    <rect x="0" y="0" width="960" height="480" fill="#0a0d12"/>
+    <rect x="0" y="0" width="1180" height="480" fill="#0a0d12"/>
 
     <!-- title bar -->
-    <rect x="0" y="0" width="960" height="34" fill="#10141b"/>
+    <rect x="0" y="0" width="1180" height="34" fill="#10141b"/>
     <circle cx="20" cy="17" r="5" fill="#ff5f56"/>
     <circle cx="38" cy="17" r="5" fill="#ffbd2e"/>
     <circle cx="56" cy="17" r="5" fill="#27c93f"/>
     <text x="82" y="21" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="12" fill="#6e7681">ahmed@dev — ~/portfolio</text>
-    <text x="878" y="21" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="11" fill="#3a4048">zsh</text>
+    <text x="1098" y="21" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="11" fill="#3a4048">zsh</text>
 
     <!-- divider -->
-    <line x1="308" y1="34" x2="308" y2="480" stroke="#20242c" stroke-width="1"/>
+    <line x1="528" y1="34" x2="528" y2="480" stroke="#20242c" stroke-width="1"/>
 
     <!-- portrait panel -->
-    <rect x="24" y="56" width="256" height="396" rx="6" ry="6" fill="#05070a" stroke="#20242c" stroke-width="1"/>
+    <rect x="24" y="56" width="480" height="396" rx="6" ry="6" fill="#05070a" stroke="#20242c" stroke-width="1"/>
 
     <!-- corner reticle marks -->
     <g stroke="#3fb6c9" stroke-width="2" fill="none">
       <path d="M40 74 v-10 h10"/>
-      <path d="M264 74 v-10 h-10"/>
+      <path d="M488 74 v-10 h-10"/>
       <path d="M40 434 v10 h10"/>
-      <path d="M264 434 v10 h-10"/>
+      <path d="M488 434 v10 h-10"/>
     </g>
 
-    <!-- ascii portrait, density-mapped from the supplied source photo -->
-    <text x="28" y="68" xml:space="preserve" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="7.3" fill="#7f8ea3">
-      <tspan x="28" dy="0">                                                        </tspan>
-      <tspan x="28" dy="8.3">                                                        </tspan>
-      <tspan x="28" dy="8.3">              #@@@#@@@#@@@#@@@#                         </tspan>
-      <tspan x="28" dy="8.3">        @#@@@#@@@#@@@#@@@#@@@#@@@#@@@                   </tspan>
-      <tspan x="28" dy="8.3">   @#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@              </tspan>
-      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@               @@@#@@@#@@@#@@@         </tspan>
-      <tspan x="28" dy="8.3">@@#@@@#@@@#@@@#@@                     #@@@#@@@#@@@#@@@# </tspan>
-      <tspan x="28" dy="8.3">@#@@@#@@@#@@@#@@@                       @#@@@#@@@#@@@#@@</tspan>
-      <tspan x="28" dy="8.3">#@@@#@@@#@@@#@@@#        ::::::         #@@@#@@@#@@@#@@@</tspan>
-      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@      ::::::::::       @@@#@@@#@@@#@@@#</tspan>
-      <tspan x="28" dy="8.3">@@#@@@#@@@#@@@#@@    ::::::::::::::     @@#@@@#@@@#@@@#@</tspan>
-      <tspan x="28" dy="8.3">@#@@@#@@@#@@@#@@@   ::::::::::::::::    @#@@@#@@@#@@@#@@</tspan>
-      <tspan x="28" dy="8.3">#@@@#@@@#@@@#@@@#  ::::::::::::::::::   #@@@#@@@#@@@#@@@</tspan>
-      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@  ::::::::::::::::::   @@@#@@@#@@@#@@@#</tspan>
-      <tspan x="28" dy="8.3">@@#@@@#@@@#@@@#@@ ::::::::----::::::::  @@#@@@#@@@#@@@#@</tspan>
-      <tspan x="28" dy="8.3">@#@@@#@@@#@@@#@@@ :#####--------#####:  @#@@@#@@@#@@@#@@</tspan>
-      <tspan x="28" dy="8.3">#@@@#@@@#@@@#@@@#::#####--------#####:: #@@@#@@@#@@@#@@@</tspan>
-      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@::::::----------:::::: @@@#@@@#@@@#@@@#</tspan>
-      <tspan x="28" dy="8.3">@@#@@@#@@@#      :::****--------****::: @@#@@@#@@@#@@@#@</tspan>
-      <tspan x="28" dy="8.3">@              :::::****--------****:::::   @#@@@#@@@#@@</tspan>
-      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
-      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
-      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
-      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
-      <tspan x="28" dy="8.3">                 :::::-----::-----:::::                 </tspan>
-      <tspan x="28" dy="8.3">                 ::::::----::----::::::                 </tspan>
-      <tspan x="28" dy="8.3">                 ::::::----::----::::::                 </tspan>
-      <tspan x="28" dy="8.3">                  ::::::********::::::                  </tspan>
-      <tspan x="28" dy="8.3">                  ::::::::----::::::::                  </tspan>
-      <tspan x="28" dy="8.3">                   ******************                   </tspan>
-      <tspan x="28" dy="8.3">                   ******************                   </tspan>
-      <tspan x="28" dy="8.3">                    ****************                    </tspan>
-      <tspan x="28" dy="8.3">                     **************                     </tspan>
-      <tspan x="28" dy="8.3">                      ************                      </tspan>
-      <tspan x="28" dy="8.3">                        ********                        </tspan>
-      <tspan x="28" dy="8.3">                                                        </tspan>
-      <tspan x="28" dy="8.3">                                                        </tspan>
-      <tspan x="28" dy="8.3">                  ####################                  </tspan>
-      <tspan x="28" dy="8.3">               ##########################               </tspan>
-      <tspan x="28" dy="8.3">            ################################            </tspan>
-      <tspan x="28" dy="8.3">          ####################################          </tspan>
-      <tspan x="28" dy="8.3">       ##########################################       </tspan>
-      <tspan x="28" dy="8.3">    ################################################    </tspan>
-      <tspan x="28" dy="8.3">  ####################################################  </tspan>
-      <tspan x="28" dy="8.3">########################################################</tspan>
-      <tspan x="28" dy="8.3">########################################################</tspan>
+    <!-- ascii portrait, density-mapped from the supplied source photo (99x43 char grid) -->
+    <text x="42" y="76" xml:space="preserve" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="7.5" fill="#8a97a8">
+      <tspan x="42" dy="0"> :                      @####-.@%##%@@=  *:    @%%*      :*+:  %###############%#                  </tspan>
+      <tspan x="42" dy="8.65">    @@@@@@@@%%%@=+-=   @@%@@@@%@@@@@:   @@@@@:=%@@@*::  -#@%*=+@@@%@@%@@%@@%@@@@@@:.. . .      @@@ </tspan>
+      <tspan x="42" dy="8.65">           -@@@@@   %@@@@@@=     =@@@@@: =%%%@%+:--#@*@@@@@@%#*@@%@@%@@%@@%@@@@@: .-. .:       #@@ </tspan>
+      <tspan x="42" dy="8.65">@@:   @@@@= @@*   :        .*@: =@@@@@@@#=-     +%.      .@@@@%@@@@%%@%%@%%@%@@=-%*. :=*= ..:. .   </tspan>
+      <tspan x="42" dy="8.65">@*   .@@@@@+=:  :@@@@@%.-#@@@%:%@@@@@...-*. @.=.  =: -==:.  #@%%%%@@@%@@%@@%%@@%%%:. .:..   ::.    </tspan>
+      <tspan x="42" dy="8.65">@:%@@*=#.           #*+=%@@@@@@@@@   -*-:  : .       +     :. =@@@@%@%@@%@@%@@@*    +#*:=-:::::=+= </tspan>
+      <tspan x="42" dy="8.65">%@@@%:   *@@@  -@% .     %@@%#@@:  .:                 .%     . @@@@%@@%%@%%@@@: #@*-.::%@@#:=:     </tspan>
+      <tspan x="42" dy="8.65">%@@@: :*@@@@@ =@@@@@@+@@@%  :-=.   .                 -   .-*.   @@@@%@@@@@@@@@@@**#*:   %%: *@%=.: </tspan>
+      <tspan x="42" dy="8.65">#@@+   %*%@@@@@@@@@@@@@%    %@@@@                            .   #@@@@#:.-=:        .::.:-   .-*%% </tspan>
+      <tspan x="42" dy="8.65">   *@@:.:%@@@@@@#.  %@@@ @@#@@@@@.     .--%%%%=----==--:         %%@@@@@@=  *@#.=+#=-..+%=       . </tspan>
+      <tspan x="42" dy="8.65">       =+ =@@@@@@       #@@@@@%@  %@@*=*@@@@@@@@%%%#+----:      =. :+**%@@%%@@@@@@@%*  @@@   *@%== </tspan>
+      <tspan x="42" dy="8.65"> :   .     =@@%@@@+@@@@@@@@@@@%@. %:  -@%@@@@%@@@@@@@%@@%+-     @%##=#**+:+@@*=-.  .  :@@@   :#@@@ </tspan>
+      <tspan x="42" dy="8.65">@@@-:%+. =: @@@@@@@=+    .+%@@@@@     -%@%@%%@@@@@@@@@@@@@@.   :@@%#%@%%%%*==*##+:  ..  :.    .    </tspan>
+      <tspan x="42" dy="8.65">      --*@@@=%@@@%          @@@@@* . :@%@@@@@@@@@@%--  -=@@@-  @*==%@%%@@@=::.:=+%*:.    .    .  . </tspan>
+      <tspan x="42" dy="8.65">         %%@*    -%@@@@@-     :@@@   -#*-------%%---:    :-@@ ---@@@@%*-=-=%*-   :+*%@%*:.   :-::+ </tspan>
+      <tspan x="42" dy="8.65">        -@@@@@@@.@@@@@@@@@@:-+:%%@%  *%#--    -@@@-: :--+%@@@*@--#%%%***-. .:  :=-:::==+*#=.:.::   </tspan>
+      <tspan x="42" dy="8.65">     :@%@@@@@@@@@   :.:*@@@@@%=+%%@@-%%%=----*%@@@@%@@@@@@@@@=-=+*:.:-==::  ::::.    :    ::.   .. </tspan>
+      <tspan x="42" dy="8.65"> @@@%@@@@  @@@@@@@:@@@@@@%@@@**#-=--@@@@@@@@@@@@@%@%@@@@@@%@%#*--*=:..:.:=+@%#:  %@@@@%##.@@@- .*+ </tspan>
+      <tspan x="42" dy="8.65">@@@@@* :@%=   :@@@+@@@@@@@@@@@@@@**-*-@@@@@@%%@@@@@@@@@%@@@%@-@@   -=##*..#%%#= +@@@@%=*=:=%@%%%@- </tspan>
+      <tspan x="42" dy="8.65"> @@%@@@@@@@@:  *%%   %@%%@*  =%%%-=@@-%@@%%@@@@%-----@@@%@%@*:---*=::-:-.                   =. -#- </tspan>
+      <tspan x="42" dy="8.65"> @@@@@@@@%@@@@@@@@= :%@%%@@#.  -%%%%@@@@@@@@@@%-:   +@@@@@%=: *==:.::.           .-+:.:#@@@#:::::  </tspan>
+      <tspan x="42" dy="8.65">:*@@@%= @@@%@@%@@@@%%%%%%@@@#---=+--+%-=@@@@@**%------  -%*.  %%*-        .:-:+@@@@%=#%%@@@%%%%%*-:</tspan>
+      <tspan x="42" dy="8.65">    =%@@@@@@@@%@%@@@@@@@@#=+*+=. :*#*== --@@::-=@@@@@@@#+*=. ==-*+=:       .:  =@%%.  .+%=:%@%*#%%=</tspan>
+      <tspan x="42" dy="8.65"> @@@@*%%=+%%@@%@%@@%@@@*. :*#*-==:%%%+=*  -@@@@%-   :-*@%%= @*. =*%*= :=-=:=+#%====*#**#*.  =#*.   </tspan>
+      <tspan x="42" dy="8.65"> -+-*=-=%@@%%@@%@%@@@@@@*:*%#==*%%=-::=*#*-*@@@%@@@@@@@@%  *@==***%@%-.::.    ::  .:-:.:#*.  .-=*# </tspan>
+      <tspan x="42" dy="8.65">*%%%%@@@@@@@@@@%@@@%@@@@@%=+==-:.-:.::-*+@@- -@@%%%#*==  -=%@:  ==*=..::   *%*=%%.+*:=%%%%%@@@%#:  </tspan>
+      <tspan x="42" dy="8.65">:%%#%@@%%@@@#@@@@@%+==*@@@==@@*:     =*@--@@%-         --*@@@#.  ==@*- .:=-:  =@%=  %@@:.:.=*- *%%:</tspan>
+      <tspan x="42" dy="8.65"> ..  -%%%%%+=#@@@@%@***@@@%+##:--=::+@-   @@@@@%=---===**#%@@%   ====**###@@%%#%*%#**: .#%#  +*%@# </tspan>
+      <tspan x="42" dy="8.65"> ..#@@@++-:=%%**=**=:. :++*+=-:    :*=   :%@%@@%%@---==+#%%@* . -+-===@%***#*+=.  :=:  .*%%%%%%  . </tspan>
+      <tspan x="42" dy="8.65"> ==%%%%:.:=====+=@%@%+*=.          #=   :.%@@%%@%%#%%*+*%@%-    -==++-====-**+=***+=*: :-=       : </tspan>
+      <tspan x="42" dy="8.65">%@*::...:=-: ..  .:=@@@@@::=--=-  @=-  :-.-%@@%@@%@@==%%%*  .  --=--=-=@+====@@@%:=**=##++-=%%%@@: </tspan>
+      <tspan x="42" dy="8.65"> *=*%%%%*--=----. .:@@@@@**=-:  =@#-   :=:.-%@%%#=--%%%:      =-*==----@--------==@@%*+.     . ==  </tspan>
+      <tspan x="42" dy="8.65">  *%%%%%%%#-..=%%#*  *%%=    =@@@@--       . +%@%#%%          --+=---*==+%%****#%%%#-=@@ :  .***:: </tspan>
+      <tspan x="42" dy="8.65"> :--:-**+:=:: .==:. +@@@+.*@@#--%---    :      =*-=           -==---=**------=#%===%@@@@*@%%**::.--</tspan>
+      <tspan x="42" dy="8.65">.=.=: ::::.       %@@@@@@#%---%@%=--     ..  *  @@@-..    .. -+*=---=-=--==+====-=%@=--=#*==-      </tspan>
+      <tspan x="42" dy="8.65">@@@@@#....    : .#@@@@=--==-*@@-*#---  .:       @@@        :@%***=-=*%#=-==+*----=+----=%=%*=#***= </tspan>
+      <tspan x="42" dy="8.65">#@@@@@:*%%%%=*%+#@@--=--=-*@@@-  --%=            -       %@-     +%%*@*--=+=-----#=---@=-----===@@*</tspan>
+      <tspan x="42" dy="8.65">#@:..  %%@@%*=#*@+---====------   .=- ::. .  . .:     .:#-           --------=--+=---=-  =---@@=-- </tspan>
+      <tspan x="42" dy="8.65">#@%#-.+%*=*#**@@=--=-+----------   :=    . ..:==  =   :+- .     -       --=----*=----=- --:-=-=--*-</tspan>
+      <tspan x="42" dy="8.65">%%@%%%@@@%%%%@%=---------=--=%--  .:=      ...        *- .     --  ::---=------===-:-=  ---=---=---</tspan>
+      <tspan x="42" dy="8.65">-#%%%%@@@%%@%@-=-----==--%--*==: :----   ..       .  :+-  .:: -=- :----------=**---.--  --=-: -==--</tspan>
+      <tspan x="42" dy="8.65">-%=***-=%#***=-------+---#-=*--  -----         .::   =--:.-:-----:--------*+==----- -- :--:  ------</tspan>
+      <tspan x="42" dy="8.65">%%-   :@%#%#-----:------------: :-----                :  .------------------------- -  :    ---::--</tspan>
     </text>
 
-    <text x="152" y="446" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="9.5" fill="#333a44">ascii://portrait/v1</text>
+    <text x="264" y="446" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="9.5" fill="#333a44">ascii://portrait</text>
 
     <!-- right side: terminal output -->
     <g font-family="SFMono-Regular, Consolas, Menlo, monospace">
-      <text x="340" y="96" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">whoami</tspan></text>
-      <text x="340" y="122" font-size="18" font-weight="600" fill="#e6edf3">Muhammad Ahmed</text>
+      <text x="560" y="96" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">whoami</tspan></text>
+      <text x="560" y="122" font-size="18" font-weight="600" fill="#e6edf3">Muhammad Ahmed</text>
 
-      <text x="340" y="164" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">role</tspan></text>
-      <text x="340" y="190" font-size="15" fill="#c9d1d9">Aspiring Full-Stack Developer</text>
+      <text x="560" y="164" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">role</tspan></text>
+      <text x="560" y="190" font-size="15" fill="#c9d1d9">Aspiring Full-Stack Developer</text>
 
-      <text x="340" y="232" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">focus</tspan></text>
-      <text x="340" y="258" font-size="15" fill="#c9d1d9">Frontend <tspan fill="#f0883e">→</tspan> Full-Stack</text>
+      <text x="560" y="232" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">focus</tspan></text>
+      <text x="560" y="258" font-size="15" fill="#c9d1d9">Frontend <tspan fill="#f0883e">→</tspan> Full-Stack</text>
 
-      <text x="340" y="300" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">stack</tspan></text>
-      <text x="340" y="326" font-size="13.5" fill="#c9d1d9">React <tspan fill="#3a4048">·</tspan> JavaScript <tspan fill="#3a4048">·</tspan> Tailwind CSS <tspan fill="#3a4048">·</tspan> Bootstrap</text>
+      <text x="560" y="300" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">stack</tspan></text>
+      <text x="560" y="326" font-size="13.5" fill="#c9d1d9">React <tspan fill="#3a4048">·</tspan> JavaScript <tspan fill="#3a4048">·</tspan> Tailwind CSS <tspan fill="#3a4048">·</tspan> Bootstrap</text>
 
-      <text x="340" y="368" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">learning</tspan></text>
-      <text x="340" y="394" font-size="13.5" fill="#c9d1d9">TypeScript <tspan fill="#3a4048">·</tspan> Next.js <tspan fill="#3a4048">·</tspan> Node.js <tspan fill="#3a4048">·</tspan> Prisma</text>
+      <text x="560" y="368" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">learning</tspan></text>
+      <text x="560" y="394" font-size="13.5" fill="#c9d1d9">TypeScript <tspan fill="#3a4048">·</tspan> Next.js <tspan fill="#3a4048">·</tspan> Node.js <tspan fill="#3a4048">·</tspan> Prisma</text>
 
-      <text x="340" y="436" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">status</tspan></text>
-      <text x="340" y="461" font-size="15" font-weight="600" fill="#3fdc6b">&#9679; BUILDING</text>
+      <text x="560" y="436" font-size="15" fill="#5fd68a">$ <tspan fill="#6cb6ff">status</tspan></text>
+      <text x="560" y="461" font-size="15" font-weight="600" fill="#3fdc6b">&#9679; BUILDING</text>
 
-      <text x="340" y="461" font-size="15" fill="#3fdc6b" dx="118">&#9612;</text>
+      <text x="560" y="461" font-size="15" fill="#3fdc6b" dx="118">&#9612;</text>
     </g>
 
-    <text x="936" y="465" text-anchor="end" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-style="italic" font-size="11" fill="#3a4048">// Building the Web, One Idea at a Time.</text>
+    <text x="1156" y="465" text-anchor="end" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-style="italic" font-size="11" fill="#3a4048">// Building the Web, One Idea at a Time.</text>
   </g>
 
-  <rect x="1" y="1" width="958" height="478" rx="10" ry="10" fill="none" stroke="#262b33" stroke-width="1"/>
+  <rect x="1" y="1" width="1178" height="478" rx="10" ry="10" fill="none" stroke="#262b33" stroke-width="1"/>
 </svg>
