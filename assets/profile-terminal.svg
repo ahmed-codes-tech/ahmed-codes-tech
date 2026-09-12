@@ -33,17 +33,57 @@
       <path d="M264 434 v10 h-10"/>
     </g>
 
-    <!-- abstract placeholder bust outline (not a real likeness) -->
-    <g stroke="#232a33" stroke-width="1.5" fill="none" stroke-dasharray="3 4">
-      <circle cx="152" cy="188" r="56"/>
-      <path d="M76 400 C76 320 118 296 152 296 C186 296 228 320 228 400"/>
-    </g>
+    <!-- ascii portrait, density-mapped from the supplied source photo -->
+    <text x="28" y="68" xml:space="preserve" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="7.3" fill="#7f8ea3">
+      <tspan x="28" dy="0">                                                        </tspan>
+      <tspan x="28" dy="8.3">                                                        </tspan>
+      <tspan x="28" dy="8.3">              #@@@#@@@#@@@#@@@#                         </tspan>
+      <tspan x="28" dy="8.3">        @#@@@#@@@#@@@#@@@#@@@#@@@#@@@                   </tspan>
+      <tspan x="28" dy="8.3">   @#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@@@#@              </tspan>
+      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@               @@@#@@@#@@@#@@@         </tspan>
+      <tspan x="28" dy="8.3">@@#@@@#@@@#@@@#@@                     #@@@#@@@#@@@#@@@# </tspan>
+      <tspan x="28" dy="8.3">@#@@@#@@@#@@@#@@@                       @#@@@#@@@#@@@#@@</tspan>
+      <tspan x="28" dy="8.3">#@@@#@@@#@@@#@@@#        ::::::         #@@@#@@@#@@@#@@@</tspan>
+      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@      ::::::::::       @@@#@@@#@@@#@@@#</tspan>
+      <tspan x="28" dy="8.3">@@#@@@#@@@#@@@#@@    ::::::::::::::     @@#@@@#@@@#@@@#@</tspan>
+      <tspan x="28" dy="8.3">@#@@@#@@@#@@@#@@@   ::::::::::::::::    @#@@@#@@@#@@@#@@</tspan>
+      <tspan x="28" dy="8.3">#@@@#@@@#@@@#@@@#  ::::::::::::::::::   #@@@#@@@#@@@#@@@</tspan>
+      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@  ::::::::::::::::::   @@@#@@@#@@@#@@@#</tspan>
+      <tspan x="28" dy="8.3">@@#@@@#@@@#@@@#@@ ::::::::----::::::::  @@#@@@#@@@#@@@#@</tspan>
+      <tspan x="28" dy="8.3">@#@@@#@@@#@@@#@@@ :#####--------#####:  @#@@@#@@@#@@@#@@</tspan>
+      <tspan x="28" dy="8.3">#@@@#@@@#@@@#@@@#::#####--------#####:: #@@@#@@@#@@@#@@@</tspan>
+      <tspan x="28" dy="8.3">@@@#@@@#@@@#@@@#@::::::----------:::::: @@@#@@@#@@@#@@@#</tspan>
+      <tspan x="28" dy="8.3">@@#@@@#@@@#      :::****--------****::: @@#@@@#@@@#@@@#@</tspan>
+      <tspan x="28" dy="8.3">@              :::::****--------****:::::   @#@@@#@@@#@@</tspan>
+      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
+      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
+      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
+      <tspan x="28" dy="8.3">               :::::::-----::-----:::::::               </tspan>
+      <tspan x="28" dy="8.3">                 :::::-----::-----:::::                 </tspan>
+      <tspan x="28" dy="8.3">                 ::::::----::----::::::                 </tspan>
+      <tspan x="28" dy="8.3">                 ::::::----::----::::::                 </tspan>
+      <tspan x="28" dy="8.3">                  ::::::********::::::                  </tspan>
+      <tspan x="28" dy="8.3">                  ::::::::----::::::::                  </tspan>
+      <tspan x="28" dy="8.3">                   ******************                   </tspan>
+      <tspan x="28" dy="8.3">                   ******************                   </tspan>
+      <tspan x="28" dy="8.3">                    ****************                    </tspan>
+      <tspan x="28" dy="8.3">                     **************                     </tspan>
+      <tspan x="28" dy="8.3">                      ************                      </tspan>
+      <tspan x="28" dy="8.3">                        ********                        </tspan>
+      <tspan x="28" dy="8.3">                                                        </tspan>
+      <tspan x="28" dy="8.3">                                                        </tspan>
+      <tspan x="28" dy="8.3">                  ####################                  </tspan>
+      <tspan x="28" dy="8.3">               ##########################               </tspan>
+      <tspan x="28" dy="8.3">            ################################            </tspan>
+      <tspan x="28" dy="8.3">          ####################################          </tspan>
+      <tspan x="28" dy="8.3">       ##########################################       </tspan>
+      <tspan x="28" dy="8.3">    ################################################    </tspan>
+      <tspan x="28" dy="8.3">  ####################################################  </tspan>
+      <tspan x="28" dy="8.3">########################################################</tspan>
+      <tspan x="28" dy="8.3">########################################################</tspan>
+    </text>
 
-    <text x="152" y="252" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="13" letter-spacing="2" fill="#4b5563">[ PORTRAIT ]</text>
-    <text x="152" y="270" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="10.5" fill="#3a4048">source photo required</text>
-    <text x="152" y="286" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="10.5" fill="#3a4048">see build notes for spec</text>
-
-    <text x="152" y="428" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="10" fill="#333a44">ascii://render/pending</text>
+    <text x="152" y="446" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="9.5" fill="#333a44">ascii://portrait/v1</text>
 
     <!-- right side: terminal output -->
     <g font-family="SFMono-Regular, Consolas, Menlo, monospace">
