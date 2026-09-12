@@ -62,23 +62,25 @@ I'm a BS Computer Science student at NUML, based in Rawalpindi, Pakistan — lea
 $ ls ./projects
 ```
 
-**01 · BYTESOLTECH**
-Project details pending — description, stack, and links to be added.
-`[ SOURCE: pending ]` `[ LIVE: pending ]`
+**01 · PORTFOLIO**
+Personal portfolio site — hero, about, experience, skills, articles, and project sections.
+`React` `Vite` `Tailwind CSS` `Framer Motion`
+[`[ SOURCE ]`](https://github.com/ahmed-codes-tech/Portfolio) [`[ LIVE ]`](https://portfolio-six-kappa-e2y1dubgjo.vercel.app/)
 
-**02 · THINKERQUIZ**
-Project details pending — description, stack, and links to be added.
-`[ SOURCE: pending ]` `[ LIVE: pending ]`
+**02 · E-COMMERCE WEBPAGE**
+Multi-page storefront — item listing, product detail, and cart pages.
+`HTML` `CSS` `JavaScript`
+[`[ SOURCE ]`](https://github.com/ahmed-codes-tech/E-Commerce_Webpage) [`[ LIVE ]`](https://e-commerce-webpage-xi.vercel.app/)
 
-**03 · REACT PROJECT**
-Project details pending — description, stack, and links to be added.
-`[ SOURCE: pending ]` `[ LIVE: pending ]`
+**03 · TRAVERSE — Landing Page**
+Marketing landing page with an image slider/carousel section.
+`HTML` `JavaScript` `Tailwind CSS` `Vite`
+[`[ SOURCE ]`](https://github.com/ahmed-codes-tech/Traverse-Landing-Page) [`[ LIVE ]`](https://traverse-landing-page-pi.vercel.app/)
 
-**04 · TRAVERSE — Landing Page**
-Project details pending — description, stack, and links to be added.
-`[ SOURCE: pending ]` `[ LIVE: pending ]`
-
-> These four are placeholders on purpose — see **"What I still need from you"** below for exactly what to send over so each entry can carry a real description, stack, and links instead of invented ones.
+**04 · NEXUS — Business Platform**
+Dashboard-style app connecting entrepreneurs and investors — auth, messaging, video calls, document sharing, deal tracking, and calendar scheduling.
+`React` `TypeScript` `Vite` `Tailwind CSS`
+[`[ SOURCE ]`](https://github.com/ahmed-codes-tech/Nexus_2) [`[ LIVE ]`](https://nexus-2-one.vercel.app/)
 
 <br>
 
