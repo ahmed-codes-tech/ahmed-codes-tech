@@ -1,12 +1,28 @@
-<svg width="733" height="168" viewBox="0 0 733 168" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="733" height="182" viewBox="0 0 733 182" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Development activity matrix</title>
   <desc id="desc">Illustrative, statically generated activity grid in a GitHub-inspired visual style. Not a rendering of real GitHub contribution data.</desc>
 
-  <rect x="0" y="0" width="733" height="168" fill="#0a0d12"/>
+  <rect x="0" y="0" width="733" height="182" fill="#0a0d12"/>
 
   <text x="20" y="20" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#c9d1d9">ACTIVITY MATRIX</text>
   <text x="733" y="20" text-anchor="end" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="10.5" fill="#3a4048">illustrative — not live GitHub data</text>
 
+  <g font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="9.5" fill="#6e7681">
+    <text x="20" y="42">Jan</text>
+    <text x="72" y="42">Feb</text>
+    <text x="137" y="42">Mar</text>
+    <text x="189" y="42">Apr</text>
+    <text x="241" y="42">May</text>
+    <text x="306" y="42">Jun</text>
+    <text x="358" y="42">Jul</text>
+    <text x="410" y="42">Aug</text>
+    <text x="475" y="42">Sep</text>
+    <text x="527" y="42">Oct</text>
+    <text x="579" y="42">Nov</text>
+    <text x="644" y="42">Dec</text>
+  </g>
+
+<g transform="translate(0,14)">
 <rect x="20" y="34" width="10" height="10" rx="2" ry="2" fill="#161b22"/>
 <rect x="33" y="34" width="10" height="10" rx="2" ry="2" fill="#22a84a"/>
 <rect x="46" y="34" width="10" height="10" rx="2" ry="2" fill="#22a84a"/>
@@ -371,7 +387,9 @@
 <rect x="657" y="112" width="10" height="10" rx="2" ry="2" fill="#0e7a3c"/>
 <rect x="670" y="112" width="10" height="10" rx="2" ry="2" fill="#0e7a3c"/>
 <rect x="683" y="112" width="10" height="10" rx="2" ry="2" fill="#0e7a3c"/>
-  <g font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="10.5" fill="#6e7681">
+  </g>
+
+  <g font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="10.5" fill="#6e7681" transform="translate(0,14)">
     <text x="20" y="152">less</text>
     <rect x="52" y="143" width="10" height="10" rx="2" fill="#161b22"/>
     <rect x="65" y="143" width="10" height="10" rx="2" fill="#0a4a2b"/>
@@ -381,5 +399,5 @@
     <text x="122" y="152">more</text>
   </g>
 
-  <rect x="1" y="1" width="731" height="166" rx="8" ry="8" fill="none" stroke="#20242c" stroke-width="1"/>
+  <rect x="1" y="1" width="731" height="180" rx="8" ry="8" fill="none" stroke="#20242c" stroke-width="1"/>
 </svg>

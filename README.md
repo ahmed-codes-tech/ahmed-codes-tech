@@ -90,6 +90,8 @@ Dashboard-style app connecting entrepreneurs and investors — auth, messaging, 
 
 <img src="./assets/activity-matrix.svg" alt="Development activity matrix — a stylized, illustrative activity grid in a GitHub-inspired visual style; not a rendering of real GitHub contribution data" width="100%">
 
+<sub>Static, illustrative build-activity visualization — not a live GitHub contribution graph. For real contribution history, see <a href="https://github.com/ahmed-codes-tech">github.com/ahmed-codes-tech</a>.</sub>
+
 </div>
 
 <br>
